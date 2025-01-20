@@ -43,7 +43,7 @@ body:
     attributes:
       label: Context
       description: What are you trying to accomplish? Providing context helps us come up with a solution that is more useful in the real world.
-  - type: textarea
+  - type: markdown
     attributes:
       value: |
         ## :heart: Love Material UI?
