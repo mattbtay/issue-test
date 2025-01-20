@@ -1,24 +1,23 @@
-name: Docs feedback
-description: Improve documentation about Material UI, MUI System, or Joy UI.
-labels: ['status: waiting for maintainer', 'support: docs-feedback']
+name: Documentation feedback
+description: Improve documentation about Meadow Design System.
+labels: ['status: waiting for Meadow Team', 'support: docs-feedback']
 title: '[docs] '
 body:
   - type: markdown
     attributes:
-      value: Thanks for contributing by creating an issue! ❤️ Please provide a searchable summary of the issue in the title above ⬆️.
+      value: Thank you for creating an feature request. Please include a concise, descriptive summary of the feature in the title above.
   - type: input
     attributes:
-      label: Search keywords
+      label: Search terms
       description: |
-        Your issue may have already been reported! First search for duplicates among the [existing issues](https://github.com/mui/material-ui/issues?q=is%3Aopen+is%3Aclosed).
-        If your issue isn't a duplicate, great! Please list the keywords you used so people in the future can find this one more easily:
+        Your feature may already exist. First, check the [existing issues](https://github.com/Tractor-Supply-Ecommerce/tsc-storybook-design-system/issues?q=is%3Aopen+is%3Aclosed) for duplicates. If none match, please include the search terms you used so future users can find this issue more easily.
     validations:
       required: true
   - type: input
     id: page-url
     attributes:
       label: Related page
-      description: Which page of the documentation is this about?
+      description: Which page of the documentation ?
       placeholder: https://mui.com/material-ui/
     validations:
       required: true
@@ -42,9 +41,3 @@ body:
     attributes:
       label: Context
       description: What are you trying to accomplish? Providing context helps us come up with a solution that is more useful in the real world.
-  - type: markdown
-    attributes:
-      value: |
-        ## :heart: Love Material UI?
-
-        Consider donating $10 to sustain our open-source work: [https://opencollective.com/mui-org](https://opencollective.com/mui-org).

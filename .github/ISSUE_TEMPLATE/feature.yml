@@ -1,22 +1,21 @@
-name: Feature request 💄
-description: Suggest a new idea for Material UI, MUI System, or Joy UI.
-labels: ['status: waiting for maintainer']
+name: Feature request
+description: Suggest a new idea for Meadow Design System.
+labels: ['status: waiting for Meadow Team']
 body:
   - type: markdown
     attributes:
-      value: Thanks for contributing by creating an issue! ❤️ Please provide a searchable summary of the issue in the title above ⬆️.
+      value: Thank you for creating an feature request. Please include a concise, descriptive summary of the feature in the title above.
   - type: input
     attributes:
-      label: Search keywords
+      label: Search terms
       description: |
-        Your issue may have already been reported! First search for duplicates among the [existing issues](https://github.com/mui/material-ui/issues?q=is%3Aopen+is%3Aclosed).
-        If your issue isn't a duplicate, great! Please list the keywords you used so people in the future can find this one more easily:
+         Your feature may already exist. First, check the [existing issues](https://github.com/Tractor-Supply-Ecommerce/tsc-storybook-design-system/issues?q=is%3Aopen+is%3Aclosed) for duplicates. If none match, please include the search terms you used so future users can find this issue more easily.
     validations:
       required: true
   - type: checkboxes
     attributes:
       label: Latest version
-      description: We roll bug fixes, performance enhancements, and other improvements into new releases.
+      description: We incorporate bug fixes, performance enhancements, and other improvements into each new release.
       options:
         - label: I have tested the latest version
           required: true
@@ -27,14 +26,8 @@ body:
   - type: textarea
     attributes:
       label: Examples
-      description: Provide a link to the Material Design specification, other implementations, or screenshots of the expected behavior.
+      description: Please include references to the relevant Meadow Design specification, other existing implementations, or screenshots demonstrating the expected behavior.
   - type: textarea
     attributes:
       label: Motivation
-      description: What are you trying to accomplish? Providing context helps us come up with a solution that is more useful in the real world.
-  - type: markdown
-    attributes:
-      value: |
-        ## :heart: Love Material UI?
-
-        Consider donating $10 to sustain our open-source work: [https://opencollective.com/mui-org](https://opencollective.com/mui-org).
+      description: What is your overarching goal? Adding detailed context helps us devise a more useful, real-world solution.
