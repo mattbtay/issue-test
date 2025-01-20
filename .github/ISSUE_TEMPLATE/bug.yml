@@ -1,6 +1,6 @@
-name: Meadow 💮 Bug Report
-description: Create a bug report for Meadow Design System 💮.
-labels: ['status: waiting for maintainer']
+name: Bug Report
+description: Create a bug report for Meadow Design System.
+labels: ['status: waiting for Meadow Team']
 body:
   - type: markdown
     attributes:
@@ -17,7 +17,7 @@ body:
       label: Latest version
       description: We incorporate bug fixes, performance enhancements, and other improvements into each new release.
       options:
-        - label: I have confirmed that this issue exists in the latest version of Meadow 💮.
+        - label: I have confirmed that this issue exists in the latest version of Meadow.
           required: true
   - type: textarea
     attributes:
@@ -43,9 +43,3 @@ body:
     attributes:
       label: Context
       description: What are you trying to accomplish? Providing context helps us come up with a solution that is more useful in the real world.
-  - type: markdown
-    attributes:
-      value: |
-        ## :heart: Love Material UI?
-
-        Consider donating $10 to sustain our open-source work: [https://opencollective.com/mui-org](https://opencollective.com/mui-org).
